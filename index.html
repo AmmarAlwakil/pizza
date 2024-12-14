@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delight</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Italiano</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to Italiano!</h2>
+            <p>Enjoy our delicious pizzas, made with the finest ingredients and baked to perfection!</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <!-- Repeat this block for all 20 pizza items -->
+            <div class="menu-item">
+                
+                <h3>Margherita Pizza</h3>
+                <p>A classic pizza with mozzarella, tomato, and fresh basil.</p>
+                <p>Price: $12.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>Pepperoni Pizza</h3>
+                <p>Classic pepperoni pizza with cheese and tomato sauce.</p>
+                <p>Price: $14.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>BBQ Chicken Pizza</h3>
+                <p>Chicken, BBQ sauce, red onions, and cheese.</p>
+                <p>Price: $16.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>ranch Chicken Pizza</h3>
+                <p>ranch sauce, chicken, red onions, and cheese.</p>
+                <p>Price: $22.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>supreme pizza</h3>
+                <p>pepperoni, sausage, green bell pepper, black olives, and red onions</p>
+                <p>Price: $25.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>Quattro Formaggi</h3>
+                <p>mozzarella, sharp and salty Parmesan and Pecorino cheese, and the subtle funk of gorgonzola. </p>
+                <p>Price: $30.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>spinach artichoke pizza</h3>
+                <p>mozzarella and Parmesan cheese, garlic, sautéed spinach, and tangy artichoke hearts.</p>
+                <p>Price: $14.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3> red pepper pizza</h3>
+                <p>mozzarella cheese, jarred roasted red pepper strips and salty feta cheese</p>
+                <p>Price: $18.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>Taco pizza</h3>
+                <p>refried beans and Mexican style cheese, tomatoes, black olives, green onion and crunchy lettuce.</p>
+                <p>Price: $23.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>seafood lovers</h3>
+                <p> shrimp and scallops sauteed with garlic,ricotta cheese,and red onions</p>
+                <p>Price: $35.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>Breakfast pizza </h3>
+                <p> tomato sauce and mozzarella cheese, then add scrambled eggs, sausage (optional), bell peppers, and red onion.</p>
+                <p>Price: $13.00</p>
+            </div>
+
+            <div class="menu-item">
+                
+                <h3>Truffle Pizza</h3>
+                <p>savory mushrooms, gooey mozzarella cheese, drizzled with the oil </p>
+                <p>Price: $20.00</p>
+            </div>
+
+
+
+
+            <!-- Add the remaining 17 items in similar blocks -->
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Reservation Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" min="1" required>
+
+            <button type="submit">Reserve Now</button>
+        </form>
+        <div id="confirmation"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@pizzadelight.com</p>
+        <p>Phone: +283 256 986</p>
+        <p>Address: 123 king Street, new york City</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Italiano. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
